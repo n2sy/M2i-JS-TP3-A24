@@ -20,8 +20,19 @@
 
       <button id="btn-ajouter" class="btn btn-success">Ajouter</button>
       <button id="btn-effacer" class="btn btn-danger">Effacer</button>
-
-      <ol id="liste-dep" class="list-group"></ol>
+      <br /><br />
+      <input
+        id="inpFilter"
+        type="text"
+        class="form-control"
+        placeholder="Filtrer par prix"
+      />
+      <br />
+      <ol id="liste-dep" class="list-group">
+        <li class="list-group-item">Meubles : 3200 €</li>
+        <li class="list-group-item">Télé : 1119 €</li>
+        <li class="list-group-item">Courses : 325 €</li>
+      </ol>
       <strong>Total des dépenses : <span id="total">.......</span></strong>
     </div>
     <script src="script.js"></script>
