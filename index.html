@@ -14,15 +14,16 @@
   <body>
     <div class="container">
       <label>Intitulé de la dépense</label>
-      <input class="form-control" type="text" />
+      <input id="intitule" class="form-control" type="text" />
       <label>Montant de la dépense</label>
-      <input class="form-control" type="number" />
+      <input id="montant" class="form-control" type="number" />
 
-      <button class="btn btn-success">Ajouter</button>
-      <button class="btn btn-danger">Effacer</button>
+      <button id="btn-ajouter" class="btn btn-success">Ajouter</button>
+      <button id="btn-effacer" class="btn btn-danger">Effacer</button>
 
-      <ol class="list-group"></ol>
-      <strong>Total des dépenses : <span>.......</span></strong>
+      <ol id="liste-dep" class="list-group"></ol>
+      <strong>Total des dépenses : <span id="total">.......</span></strong>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
